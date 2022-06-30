@@ -313,3 +313,59 @@ h2 {
         font-size: 1.6rem;
     }
 }
+
+/* Toggler */
+.nav__toggler {
+    cursor: pointer;
+}
+
+.bar {
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+}
+
+.nav.nav__expanded .bar-one {
+    margin: 8px 0;
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.nav.nav__expanded .bar-two {
+    opacity: 0;
+}
+
+.nav.nav__expanded .bar-three {
+    margin: 8px 0;
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Toggler */
+.nav__toggler {
+    cursor: pointer;
+}
+
+.bar {
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+}
+
+.nav.nav__expanded .bar-one {
+    margin: 8px 0;
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.nav.nav__expanded .bar-two {
+    opacity: 0;
+}
+
+.nav.nav__expanded .bar-three {
+    margin: 8px 0;
+    transform: rotate(45deg) translate(-8px, -8px);
+}
