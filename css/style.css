@@ -213,3 +213,15 @@ h2 {
 .plan .list__item {
     font-size: 1.4rem;
 }
+
+/* List */
+.list {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.list--tick .list__item {
+    background: url(/assets/images/Tick-Square.svg) no-repeat right center;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+}
