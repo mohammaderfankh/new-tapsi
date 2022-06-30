@@ -369,3 +369,55 @@ h2 {
     margin: 8px 0;
     transform: rotate(45deg) translate(-8px, -8px);
 }
+
+/* feature */
+.feature {
+    display: grid;
+    justify-content: center;
+    gap: 0 10rem;
+    padding: 2rem;
+}
+
+.feature__text {
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.feature .btn {
+    padding: 1.2rem 3rem;
+}
+
+.feature__img>img {
+    width: 100%;
+    height: auto;
+}
+
+.feature__img {
+    width: 90%;
+    justify-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .feature {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .charge .feature__img {
+        order: 1;
+    }
+
+    .feature__img {
+        width: 100%;
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    .feature__detail {
+        order: 1;
+    }
+
+    .feature__img>img {
+        width: 100%;
+    }
+}
