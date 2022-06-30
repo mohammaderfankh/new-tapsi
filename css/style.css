@@ -76,3 +76,42 @@ h2 {
         padding: 6rem 2rem;
     }
 }
+
+/* Button */
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+    margin: 1rem 0;
+}
+
+.btn--primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn--secondary {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-white);
+}
+
+.btn--block {
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width:1024px) {
+    .btn {
+        font-size: 1.6rem;
+    }
+
+    .btn--block {
+        font-size: 2rem;
+    }
+
+}
