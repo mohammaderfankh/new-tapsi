@@ -17,6 +17,8 @@
     --color-navbar: #f8f8f8;
     --color-headings: #000;
     --color-body: #333333;
+    --color-white: #fff;
+    --avatar-size: 50px;
 }
 
 html {
@@ -1118,7 +1120,8 @@ input:focus::placeholder {
     background-color: var(--color-primary);
 }
 
-* DROP DOWN SECTION */ .accordion__header {
+/* DROP DOWN SECTION */
+.accordion__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
